@@ -1,0 +1,83 @@
+/*************
+    Layout
+**************/
+*{
+box-sizing : border-box;
+}
+
+
+
+body{
+width:90%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    background-color: lightgray;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+/*Grid Setup*/
+main{
+    clear: both;    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+}
+
+
+
+
+.images{
+    grid-column: -1;
+}
+.info{
+    grid-column: 1;
+    grid-row:1;
+}
+
+
+
+
+/*************
+    Nav
+**************/
+nav ul{
+    text-align: center;
+   
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+/*************
+    Main
+**************/
+main{
+    background-color: indianred;
+}
+
+
+
+
+/*************
+    Nav
+**************/
+/*************
+    Nav
+**************/
+/*************
+    Nav
+**************/
